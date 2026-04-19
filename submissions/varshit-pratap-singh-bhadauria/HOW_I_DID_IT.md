@@ -106,7 +106,31 @@ Features:
 
 This made the project feel like a real application instead of just a script.
 
+## Example Tool Usage
+
+User Query:
+"How to design a smart traffic system?"
+
+Agent Response:
+- Detected SMILE phase: Design
+- Called tool: smile_phase_detail("Design")
+
+Tool Output:
+"Design phase focuses on system architecture, component interactions..."
+
+Final Answer:
+Based on the SMILE Design phase, the system should include sensors, real-time analytics, and adaptive traffic signals.
+
 ---
+## Explainability Example
+
+The response includes source-backed reasoning:
+
+- Source: smile_phase_detail (LPI)
+- Reasoning: The Design phase defines system structure
+- Output: Explained step-by-step how traffic system is built
+
+This ensures the answer is transparent and verifiable.
 
 ## Challenges I Faced
 
