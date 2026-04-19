@@ -17,6 +17,15 @@ This agent connects to the Life-Atlas LPI using the MCP protocol and helps users
 2. Run agent.py
 3. Optionally run Flask app using app.py
 
+## Proof of LPI Tool Calls
+
+The agent actively calls LPI tools such as:
+- query_knowledge
+- smile_phase_detail
+- smile_overview
+
+These are used dynamically based on user queries.
+
 ## Notes
 This is a clean Level 3 submission with proper structure and explainability.
 
